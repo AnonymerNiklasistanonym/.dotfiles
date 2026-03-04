@@ -1,5 +1,4 @@
 # Audio 
-asunder
 audacity
 # > Portmanagement
 helvum
@@ -35,6 +34,7 @@ clang
 gcc
 llvm
 # > Editors/IDEs
+bat
 code
 intellij-idea-community-edition
 jupyter-notebook
@@ -45,7 +45,6 @@ nano
 npm
 pycharm-community-edition
 qtcreator
-thonny
 vim
 # > Formatting
 astyle
@@ -88,7 +87,6 @@ ttf-hack-nerd
 ttf-jetbrains-mono
 ttf-liberation
 ttf-meslo-nerd-font-powerlevel10k
-ttf-ms-fonts
 # > PDF
 okular
 pdfarranger
@@ -137,6 +135,7 @@ digikam
 discord
 element-desktop
 expect
+fastfetch
 ffmpeg
 freecad
 gnupg
@@ -145,7 +144,6 @@ hashcat
 htop
 jq
 leiningen
-neofetch
 nmap
 noisetorch
 noto-fonts

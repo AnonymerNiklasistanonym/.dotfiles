@@ -3,8 +3,8 @@
 Automatically install applications from a list:
 
 ```sh
-sudo pacman -S --needed - < pkglist_general.txt
-yay         -S --needed - < pkglist_general_aur.txt
+grep -v '^#' pkglist_general.txt     | sudo pacman -S --needed -
+grep -v '^#' pkglist_general_aur.txt |      yay    -S --needed -
 ```
  
 Automatically generate symbolic links to files in this repository:

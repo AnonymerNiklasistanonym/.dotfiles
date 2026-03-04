@@ -9,5 +9,7 @@ onedrive-abraunegg
 onedrivegui
 pinta
 powershell-bin
+thonny
+ttf-ms-fonts
 typora
 youtube-dl
