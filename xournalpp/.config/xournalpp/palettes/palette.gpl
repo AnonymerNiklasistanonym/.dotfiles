@@ -1,0 +1,46 @@
+GIMP Palette
+Name: Xournal Default Palette
+#
+0 0 0 Black
+0 128 0 Green
+0 192 255 Light Blue
+0 255 0 Light Green
+51 51 204 Blue
+128 128 128 Gray
+255 0 0 Red
+255 0 255 Magenta
+255 128 0 Orange
+255 255 0 Yellow
+255 255 255 White
+192 192 192 LightGray (xcolor)
+169 169 169 DarkGray (xcolor)
+255 0 0 Red (xcolor)
+128 0 0 DarkRed (xcolor)
+255 165 0 Orange (xcolor)
+255 255 0 Yellow (xcolor)
+128 128 0 Olive (xcolor)
+0 255 0 Green (xcolor)
+0 128 0 DarkGreen (xcolor)
+0 255 255 Cyan (xcolor)
+0 128 128 Teal (xcolor)
+0 0 255 Blue (xcolor)
+0 0 128 Navy (xcolor)
+255 0 255 Magenta (xcolor)
+128 0 128 Purple (xcolor)
+165 42 42 Brown (xcolor)
+210 105 30 Chocolate (xcolor)
+255 192 203 Pink (xcolor)
+255 182 193 LightPink (xcolor)
+173 216 230 LightBlue (xcolor)
+135 206 235 SkyBlue (xcolor)
+0 255 127 SpringGreen (xcolor)
+127 255 0 Chartreuse (xcolor)
+46 139 87 SeaGreen (xcolor)
+34 139 34 ForestGreen (xcolor)
+218 165 32 Goldenrod (xcolor)
+184 134 11 DarkGoldenrod (xcolor)
+139 69 19 SaddleBrown (xcolor)
+255 215 0 Gold (xcolor)
+75 0 130 Indigo (xcolor)
+240 230 140 Khaki (xcolor)
+255 228 181 Moccasin (xcolor)
