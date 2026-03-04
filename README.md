@@ -11,6 +11,10 @@ Automatically generate symbolic links to files in this repository:
 
 ```sh
 sudo pacman -S stow
+# Dry run
+./update.sh -n
+# Actually create symlinks
+./update.sh
 ```
 
 ## Other
