@@ -1,0 +1,24 @@
+################
+# DESKTOP ONLY #
+################
+
+# Gaming
+goverlay
+heroic-games-launcher
+mangohud
+minecraft-launcher
+steam
+
+# Tools
+cuda
+nvtop
+ollama-cuda
+opensnitch
+opentabletdriver
+open-webui
+
+# Yay
+gloriousctl
+osu-lazer-bin
+protonup-qt-bin
+r2modman-appimage

@@ -1,0 +1,13 @@
+# Yay
+etcher-bin
+fritzing
+github-desktop-bin
+google-chrome
+heidisql
+makemkv
+onedrive-abraunegg
+onedrivegui
+pinta
+powershell-bin
+typora
+youtube-dl

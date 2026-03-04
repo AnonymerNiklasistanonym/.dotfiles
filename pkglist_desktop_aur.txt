@@ -1,0 +1,9 @@
+################
+# DESKTOP ONLY #
+################
+
+# Yay
+gloriousctl
+osu-lazer-bin
+protonup-qt-bin
+r2modman-appimage

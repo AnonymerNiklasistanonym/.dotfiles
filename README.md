@@ -1,10 +1,22 @@
 # dotfiles
+
+Automatically install applications from a list:
+
+```sh
+sudo pacman -S --needed - < pkglist_general.txt
+yay         -S --needed - < pkglist_general_aur.txt
+```
  
 Automatically generate symbolic links to files in this repository:
 
 ```sh
 sudo pacman -S stow
 ```
+
+## Other
+
+- Flatpak: https://wiki.manjaro.org/index.php/Flatpak
+- Printing: https://wiki.manjaro.org/index.php/Printing
 
 ## Documentation
 
@@ -45,4 +57,11 @@ And using `n` will not run any actual command (*dry run*):
 
 ```sh
 stow -n -R */
+```
+
+### `pacman`
+
+```sh
+# Get all (explicitly) installed packages in a list
+pacman -Qqe > pkglist_unfiltered.txt
 ```

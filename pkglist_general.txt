@@ -1,0 +1,170 @@
+# Audio 
+asunder
+audacity
+# > Portmanagement
+helvum
+
+# Blogging
+hugo
+hunspell
+hunspell-de
+hunspell-en_us
+
+# Browsers
+chromium
+curl
+firefox
+firefox-i18n-de
+firefox-i18n-en-us
+
+# Container
+docker
+docker-compose
+podman
+podman-compose
+
+# Code
+cmake
+git
+gitlab-runner
+grep
+make
+ninja
+# > Toolchains/Compilers
+clang
+gcc
+llvm
+# > Editors/IDEs
+code
+intellij-idea-community-edition
+jupyter-notebook
+jupyterlab
+kate
+msedit
+nano
+npm
+pycharm-community-edition
+qtcreator
+thonny
+vim
+# > Formatting
+astyle
+# > Linting/Analysis
+cppcheck
+gdb
+ghidra
+luacheck
+perf
+valgrind
+# > Documentation
+doxygen
+# > Runtimes
+dotnet-runtime
+dotnet-sdk
+go
+nodejs
+python
+python-black
+python-matplotlib
+python-numpy
+python-pandas
+python-pillow
+python-pip
+python-virtualenv
+
+# Documents
+# > Drawing
+xournalpp
+# LaTeX
+aspell
+aspell-de
+aspell-en
+biber
+texlive
+ttf-dejavu
+ttf-fira-code
+ttf-hack
+ttf-hack-nerd
+ttf-jetbrains-mono
+ttf-liberation
+ttf-meslo-nerd-font-powerlevel10k
+ttf-ms-fonts
+# > PDF
+okular
+pdfarranger
+pdftk
+# > Scanning
+gscan2pdf
+
+# E-Mail
+thunderbird
+thunderbird-i18n-de
+thunderbird-i18n-en-us
+
+# Files
+# > Backup
+timeshift
+# > Comparison
+meld
+# > Disk Management
+baobab
+gnome-disk-utility
+gparted
+# > Windows/Linux Compatibility
+dos2unix
+
+# Images
+gwenview
+imagemagick
+inkscape
+
+# Security/Password Management
+keepassxc
+
+# Share
+kdeconnect
+
+# Terminals
+alacritty
+konsole
+tmux
+
+# Other
+blender
+cameractrls
+clojure
+digikam
+discord
+element-desktop
+expect
+ffmpeg
+freecad
+gnupg
+graphviz
+hashcat
+htop
+jq
+leiningen
+neofetch
+nmap
+noisetorch
+noto-fonts
+noto-fonts-emoji
+pandoc-cli
+perl
+qalculate-qt
+ollama
+opensnitch
+scapy
+scrcpy
+spectacle
+sqlitebrowser
+stow
+strace
+tree
+wget
+yay
+
+# Video
+handbrake
+mpv
