@@ -2,6 +2,8 @@
 # LAPTOP ONLY #
 ###############
 
-# On-Screen Keyboard
+# On-screen keyboard
 plasma-keyboard
 
+# Auto detect screen orientation (requires restart)
+iio-sensor-proxy
