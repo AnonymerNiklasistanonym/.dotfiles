@@ -1,0 +1,7 @@
+###############
+# LAPTOP ONLY #
+###############
+
+# On-Screen Keyboard
+plasma-keyboard
+
