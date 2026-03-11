@@ -83,7 +83,7 @@
   <property name="snapGridSize" value="14.17"/>
   <property name="strokeRecognizerMinSize" value="40"/>
   <property name="touchDrawing" value="false"/>
-  <property name="gtkTouchInertialScrolling" value="true"/>
+  <property name="gtkTouchInertialScrolling" value="false"/>
   <property name="pressureGuessing" value="false"/>
   <property name="recolor.enabled" value="false"/>
   <property name="recolor.sidebar" value="false"/>
@@ -191,6 +191,14 @@
       <attribute name="deviceClass" type="int" value="0"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
+    <data name="ELAN2513:00 04F3:4302 Stylus">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="ELAN2513:00 04F3:4302 Stylus (Eraser)">
+      <attribute name="deviceClass" type="int" value="3"/>
+      <attribute name="deviceSource" type="int" value="2"/>
+    </data>
     <data name="Microsoft HIDI2C Device Eraser">
       <attribute name="deviceClass" type="int" value="3"/>
       <attribute name="deviceSource" type="int" value="2"/>
@@ -211,9 +219,17 @@
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
+    <data name="Wayland Finger Scrolling">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="6"/>
+    </data>
     <data name="Wayland Pointer">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="Wayland Touch">
+      <attribute name="deviceClass" type="int" value="4"/>
+      <attribute name="deviceSource" type="int" value="5"/>
     </data>
     <data name="Wayland Wheel Scrolling">
       <attribute name="deviceClass" type="int" value="1"/>
