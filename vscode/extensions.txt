@@ -1,3 +1,5 @@
 eg2.vscode-npm-script
+james-yu.latex-workshop
+leonardssh.vscord
 pflannery.vscode-versionlens
 shardulm94.trailing-spaces
