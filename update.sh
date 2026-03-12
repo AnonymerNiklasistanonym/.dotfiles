@@ -33,11 +33,28 @@ fi
 
 echo "Running stow with flags: $STOW_FLAGS"
 
+# Custom function to link a file
+link_file () {
+    SRC="$1"
+    DEST="$2"
+
+    if [ "$DELETE" -eq 1 ]; then
+        echo "Removing $DEST"
+        [ "$DRYRUN" -eq 0 ] && rm -f "$DEST"
+    else
+        echo "Linking $DEST -> $SRC"
+        if [ "$DRYRUN" -eq 0 ]; then
+            ln -sfn "$SRC" "$DEST"
+        fi
+    fi
+}
+
 # Stow flat packages (except special cases)
 for pkg in */; do
     [ "$pkg" = "config/" ] && continue
     [ "$pkg" = "cursors/" ] && continue
     [ "$pkg" = "icons/" ] && continue
+    [ "$pkg" = "vscode/" ] && continue
     stow $STOW_FLAGS -t ~ "${pkg%/}"
 done
 
@@ -67,6 +84,29 @@ for dir in cursors/.local/share/icons/*/; do
         [ "$DRYRUN" -eq 0 ] && rm -rf "$ICON_DIR/$pkg"
     else
         echo "Linking $ICON_DIR/$pkg -> $dir"
-        [ "$DRYRUN" -eq 0 ] && ln -sfn "$PWD/$dir" "$ICON_DIR/$pkg"
+        [ "$DRYRUN" -eq 0 ] && link_file "$PWD/$dir" "$ICON_DIR/$pkg"
     fi
 done
+
+# > CODE OSS
+
+CODEOSS_DIR="$HOME/.config/Code - OSS/User"
+VSCODE_SRC="$PWD/vscode"
+
+mkdir -p "$CODEOSS_DIR"
+
+link_file "$VSCODE_SRC/settings.json" "$CODEOSS_DIR/settings.json"
+link_file "$VSCODE_SRC/keybindings.json" "$CODEOSS_DIR/keybindings.json"
+
+# snippets (optional)
+if [ -d "$VSCODE_SRC/snippets" ]; then
+    link_file "$VSCODE_SRC/snippets" "$CODEOSS_DIR/snippets"
+fi
+
+# install extensions
+if [ "$DELETE" -eq 0 ] && [ -f "$VSCODE_SRC/extensions.txt" ]; then
+    echo "Installing Code-OSS extensions"
+    if [ "$DRYRUN" -eq 0 ]; then
+        xargs -n 1 code --install-extension < "$VSCODE_SRC/extensions.txt"
+    fi
+fi
