@@ -155,6 +155,7 @@ ollama
 opensnitch
 scapy
 scrcpy
+shellcheck
 spectacle
 sqlitebrowser
 stow
