@@ -1,8 +1,13 @@
+continue.continue
+dbaeumer.vscode-eslint
 eg2.vscode-npm-script
 firefox-devtools.vscode-firefox-debug
 fvclaus.sort-json-array
 james-yu.latex-workshop
 leonardssh.vscord
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-python-envs
 pflannery.vscode-versionlens
 richie5um2.vscode-sort-json
 rid9.datetime
