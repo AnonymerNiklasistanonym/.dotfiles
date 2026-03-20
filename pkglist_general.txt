@@ -80,6 +80,8 @@ aspell-de
 aspell-en
 biber
 texlive
+texlive-langgerman
+texlive-langenglish
 ttf-dejavu
 ttf-fira-code
 ttf-hack
