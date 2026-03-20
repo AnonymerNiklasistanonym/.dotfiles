@@ -3,5 +3,7 @@
     "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Droid Sans Mono', monospace",
     "editor.fontLigatures": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "latex-workshop.latex.autoBuild.run": "never"
+    "latex-workshop.latex.autoBuild.run": "never",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.integrated.fontLigatures.enabled": true
 }
