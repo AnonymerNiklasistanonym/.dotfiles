@@ -101,7 +101,7 @@
   <property name="preloadPagesAfter" value="5"/>
   <property name="eagerPageCleanup" value="true"/>
   <!--Config for new pages-->
-  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=false&#10;copyLastPageSettings=true&#10;size=841.889764x595.275591&#10;backgroundType=lined&#10;backgroundColor=#ffffff&#10;"/>
+  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=true&#10;copyLastPageSettings=true&#10;size=841.889764x595.275591&#10;backgroundType=dotted&#10;backgroundColor=#ffffff&#10;"/>
   <property name="sizeUnit" value="cm"/>
   <property name="audioFolder" value=""/>
   <property name="audioInputDevice" value="-1"/>
