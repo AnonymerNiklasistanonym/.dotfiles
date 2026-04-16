@@ -1,4 +1,4 @@
-# Audio 
+# Audio
 audacity
 # > Portmanagement
 helvum
@@ -129,6 +129,11 @@ alacritty
 konsole
 tmux
 
+# Video
+handbrake
+kdenlive
+mpv
+
 # Other
 blender
 cameractrls
@@ -150,6 +155,7 @@ nmap
 noisetorch
 noto-fonts
 noto-fonts-emoji
+nvtop
 pandoc-cli
 perl
 qalculate-qt
@@ -165,7 +171,3 @@ strace
 tree
 wget
 yay
-
-# Video
-handbrake
-mpv
