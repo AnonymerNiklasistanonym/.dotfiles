@@ -1,3 +1,7 @@
+# AI
+ollama
+python-huggingface-hub
+
 # Audio
 audacity
 # > Portmanagement
@@ -159,7 +163,6 @@ nvtop
 pandoc-cli
 perl
 qalculate-qt
-ollama
 opensnitch
 scapy
 scrcpy
